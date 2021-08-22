@@ -128,6 +128,11 @@
         border-bottom: 1px solid #ccc;
     }
 
+    .section-item:last-child 
+    .section-item__body {
+        border-bottom: none;
+    }
+
     .section-item__body-link {
         align-items: center;
         margin: 16px 0;

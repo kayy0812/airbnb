@@ -317,7 +317,7 @@
 
 .header__body-filter-search-item-wrap {
     border-left: 1px solid #ddd;
-    padding: 0 30px;
+    padding: 0 0 0 30px;
 }
 
 .header__body-filter-search-item:hover .header__body-filter-search-item-wrap {
@@ -479,6 +479,7 @@
     border-radius: 10px;
     -o-object-fit: cover;
     object-fit: cover;
+    object-position: right;
 }
 
 .section-item__body-link-absolute {
@@ -486,7 +487,6 @@
     top: 0;
     height: 100%;
     margin: auto 0;
-    width: 365px;
     display: flex;
     justify-content: center;
     flex-direction: column;
